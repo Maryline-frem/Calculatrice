@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+#ecran {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: end;
+    font-size: 24px;
+    height: 30px;
+    max-width: 272px;
+}
+
+#calculator {
+    padding: 20px;
+    border: 1px solid #999999;
+    border-radius: 0  0 5px 5px;
+    position: relative;
+}
+
+.operator--calc {
+    color: #008888;
+}
+
+button {
+    padding: 10px;
+    margin: 10px;
+    width: 10px;
+
+}
+
+.egal {
+    position: absolute;
+    right: 19px;
+    top: 204px;
+}
+
+.egal--calc {
+    height: 249px;
+}
